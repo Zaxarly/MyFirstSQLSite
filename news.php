@@ -15,7 +15,7 @@ $news = mysqli_fetch_assoc($result)
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="img/fav-icon.jpg">
-    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/main.css">
     <title>News | <?=$news['title']?></title>
 </head>
 <body>
